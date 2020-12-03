@@ -65,3 +65,64 @@ Sub AllStocksAnalysis()
    Next i
 
 End Sub
+
+
+
+Sub formatAllStocksAnalysisTable()
+
+ 'Formatting
+    Worksheets("All Stocks Analysis").Activate
+    
+    Range("A3:C3").Font.FontStyle = "Bold"
+    Range("A3:C3").Borders(xlEdgeBottom).LineStyle = xlContinuous
+    Range("A3:C3").Font.Italic = True
+    Range("B4:B15").NumberFormat = "$#,##0"
+    Range("C4:C15").NumberFormat = "0.00%"
+    Columns("B").AutoFit
+    
+    dataRowStart = 4
+    dataRowEnd = 15
+    For i = dataRowStart To dataRowEnd
+
+        If Cells(i, 3) > 0 Then
+
+            'Color the cell green
+            Cells(i, 3).Interior.Color = vbGreen
+
+        ElseIf Cells(i, 3) < 0 Then
+
+            'Color the cell red
+            Cells(i, 3).Interior.Color = vbRed
+
+        Else
+
+            'Clear the cell color
+            Cells(i, 3).Interior.Color = xlNone
+
+        End If
+
+    Next i
+
+
+End Sub
+
+
+Sub ClearWorksheet()
+
+Cells.Clear
+
+End Sub
+
+
+Sub yearValueAnalysis()
+
+yearValue: InputBox ("What year would you like to run the analysis on?")
+
+Range("A1").Value = "All Stocks(2018)"
+
+Range("A1").Value = "All Stocks (" + yearValue + ")"
+
+
+Worksheets("All Stocks Analysis").Activate
+
+End Sub
