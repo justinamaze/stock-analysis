@@ -17,11 +17,11 @@ Code: In the Refactored stock Analysis I created a tickerIndex so the number can
 Original Analysis I Dim'd the (tickerVolumes, tickerStartingPrices, and tickerEndingPrices.) This particular process allows me to cancel out the nested 
 loop and loop threw the Index and Volume
 
-*Original Stocks Analysis Code
+*Original Stocks Analysis Code*
 
 ![Resources/Original_Stock_Analysis_Code.PNG](/Resources/Original_Stock_Analysis_Code.PNG)
 
-*Refactored Stock Analysis Code
+*Refactored Stock Analysis Code*
 
 ![Resources/Refactored_Stock_Analysis_Code.PNG](/Resources/Refactored_Stock_Analysis_Code.PNG)
 
@@ -34,11 +34,11 @@ In the All Stocks year 2018 most of the companies took a huge hit except "ENPH" 
 to have a positive outcome of the year. Although "Terp" was in the negative for both years this was the only company that didn't 
 have a dramatic change within the years.
 
-*Refactored year 2017
+*Refactored year 2017*
 
 ![Resources/VBA_Challenge_2017.PNG](/Resources/VBA_Challenge_2017.PNG)
 
-*Refactored year 2018
+*Refactored year 2018*
 
 ![Resources/VBA_Challenge_2018.PNG](/Resources/VBA_Challenge_2018.PNG)
 
@@ -49,32 +49,32 @@ ran faster than the orginal analysis. This tells me editing and refactoring code
 I also believe the Refactored code ran faster because it didn't have as much data and coding as the Original analysis
 had. 
 
-*Orginial Time 2017
+*Orginial Time 2017*
 
 ![Resources/2017_Original_Time.PNG](/Resources/2017_Original_Time.PNG)
 
-*Original Time 2018
+*Original Time 2018*
 
 ![Resources/2018_Original_Time.PNG ](/Resources/2018_Original_Time.PNG)
 
-*Refactored time 2017
+*Refactored time 2017*
 
 ![Resources/2017_Refactored_Time.PNG](/Resources/2017_Refactored_Time.PNG)
 
-*Refactored time 2018
+*Refactored time 2018*
 
 ![Resources/2018_Refactored_Time.PNG ](/Resources/2018_Refactored_Time.PNG )
 
 ## Summary
 
-***1. What are the advantages or disadvantages of refactoring code?
+***1. What are the advantages or disadvantages of refactoring code?***
 
 The advantages of refactoring code is being able to edit and modify the original code to mae it more simple. Also refactoring code
 helps save more storage space which leads to a more accessible and faster time to look up the data. The disadvantage of refactoring 
 code would be having to figure out what exactly you're going to modify. Also changing code can lead to more errors and debugging issues.
 So you'd have to be very careful so you don't mess up the orginal outcome. 
 
-***2. How do these pros and cons apply to refactoring the original VBA script?
+***2. How do these pros and cons apply to refactoring the original VBA script?***
 
 Well the pro to refactoring the original VBA Script the first thing I noticed was the time in the message box was shorter. That had to do with the 
 fact that refactoring takes up less data. Also in this instance of refactoring the original VBA script the coding was much simpler. The con to refactoring
