@@ -1,7 +1,7 @@
 # The VBA Green Stocks Analysis 2017 & 2018
 
 ## Overview of the project 
-The purpose of this Analysis was to Refactor the All Stocks Analysis [VBA Challenge].(https://github.com/justinamaze/stock-analysis/blob/main/VBA_Challenge%20.xlsm). so I can make the code used in that prior analysis more accurate and time effecient. Refactoring helps the with using less memory, taking fewer steps, and improving
+The purpose of this Analysis was to Refactor the All Stocks Analysis [VBA Challenge](https://github.com/justinamaze/stock-analysis/blob/main/VBA_Challenge%20.xlsm). so I can make the code used in that prior analysis more accurate and time effecient. Refactoring helps the with using less memory, taking fewer steps, and improving
 improving the logic so the results are easier to read. Then I can determine if the code made the VBA scrip run faster
 and easy to utilize for Steve's parents. 
 
